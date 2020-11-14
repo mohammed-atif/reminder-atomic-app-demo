@@ -12,6 +12,8 @@ const TextFieldComponent = (props) => (
     onChange={props.onChange}
     error={props.error}
     helperText={props.errorMessage}
+    type={props.type}
+    onBlur={props.onBlur}
     variant="outlined"
     InputLabelProps={{
       shrink: true,
@@ -26,6 +28,15 @@ TextFieldComponent.propTypes = {
   onChange: PropTypes.func,
   error: PropTypes.bool,
   errorMessage: PropTypes.string,
+  type: PropTypes.oneOf([
+    "text",
+    "password",
+    "email",
+    "date",
+    "time",
+    "datetime-local",
+  ]),
+  onBlur: PropTypes.func,
 };
 
 TextFieldComponent.defaultProps = {
@@ -33,6 +44,7 @@ TextFieldComponent.defaultProps = {
   required: false,
   error: false,
   errorMessage: "",
+  type: "text",
 };
 
 export default TextFieldComponent;
