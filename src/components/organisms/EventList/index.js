@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { makeStyles } from "@material-ui/core/styles";
-import Container from "@material-ui/core/Container";
-import Box from "@material-ui/core/Box";
+
+import Grid from "@material-ui/core/Grid";
+
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 
@@ -11,15 +12,10 @@ import Typography from "components/atoms/Typography";
 import EventListItem from "components/molecules/EventListItem";
 
 const useStyle = makeStyles((theme) => ({
-  root: {
-    height: "100%",
-  },
-  title: {
-    position: "static",
-  },
+  root: {},
   list: {
+    maxHeight: "80vh",
     overflow: "auto",
-    maxHeight: 700,
     top: theme.spacing(2),
   },
 }));
@@ -30,20 +26,24 @@ const EventList = (props) => {
 
   return (
     <React.Fragment>
-      <Box component={Container} className={style.root}>
-        <Typography variant="header" className={style.title}>
-          {props.title}
-        </Typography>
-        <List className={style.list}>
-          {eventDataList.map((eventData, index) => {
-            return (
-              <ListItem key={index}>
-                <EventListItem eventData={eventData} />
-              </ListItem>
-            );
-          })}
-        </List>
-      </Box>
+      <Grid item container className={style.root} direction="column">
+        <Grid item>
+          <Typography variant="header" className={style.title}>
+            {props.title}
+          </Typography>
+        </Grid>
+        <Grid item>
+          <List className={style.list}>
+            {eventDataList.map((eventData, index) => {
+              return (
+                <ListItem key={index}>
+                  <EventListItem eventData={eventData} />
+                </ListItem>
+              );
+            })}
+          </List>
+        </Grid>
+      </Grid>
     </React.Fragment>
   );
 };

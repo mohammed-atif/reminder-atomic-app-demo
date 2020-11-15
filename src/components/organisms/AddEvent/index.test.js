@@ -1,7 +1,7 @@
 import { ThemeProvider } from "@material-ui/core/styles";
 import baseTheme from "themes";
 
-import { render, shallow, mount } from "enzyme";
+import { render } from "enzyme";
 
 import AddEvent from ".";
 

@@ -1,0 +1,688 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Template Render Home Template 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {
+      "class": "makeStyles-root-1",
+    },
+    "children": Array [
+      Object {
+        "attribs": Object {
+          "class": "MuiPaper-root makeStyles-paper-2 MuiPaper-elevation1 MuiPaper-rounded",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "class": "MuiGrid-root makeStyles-container-3 MuiGrid-container MuiGrid-spacing-xs-2",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "class": "MuiGrid-root makeStyles-sideNav-4 MuiGrid-item MuiGrid-grid-xs-2",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {},
+                    "children": Array [],
+                    "name": "div",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {},
+                    "x-attribsPrefix": Object {},
+                  },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-item MuiGrid-align-content-xs-flex-start MuiGrid-grid-xs-true",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "MuiGrid-root makeStyles-banner-5 MuiGrid-item MuiGrid-grid-xs-12",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {},
+                          "children": Array [],
+                          "name": "div",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {},
+                          "x-attribsPrefix": Object {},
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": Object {
+                        "attribs": Object {
+                          "class": "MuiGrid-root makeStyles-content-6 MuiGrid-item MuiGrid-grid-xs-12",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {},
+                            "children": Array [],
+                            "name": "div",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {},
+                            "x-attribsPrefix": Object {},
+                          },
+                        ],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                    Object {
+                      "attribs": Object {
+                        "class": "MuiGrid-root makeStyles-content-6 MuiGrid-item MuiGrid-grid-xs-12",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {},
+                          "children": Array [],
+                          "name": "div",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {},
+                          "x-attribsPrefix": Object {},
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {
+                          "class": "MuiGrid-root makeStyles-banner-5 MuiGrid-item MuiGrid-grid-xs-12",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {},
+                            "children": Array [],
+                            "name": "div",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {},
+                            "x-attribsPrefix": Object {},
+                          },
+                        ],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "MuiGrid-root makeStyles-rightPanel-7 MuiGrid-item MuiGrid-grid-xs-3",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {},
+                        "children": Array [],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {},
+                        "x-attribsPrefix": Object {},
+                      },
+                    ],
+                    "name": "div",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+              Object {
+                "attribs": Object {
+                  "class": "MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-item MuiGrid-align-content-xs-flex-start MuiGrid-grid-xs-true",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "class": "MuiGrid-root makeStyles-banner-5 MuiGrid-item MuiGrid-grid-xs-12",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {},
+                        "children": Array [],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {},
+                        "x-attribsPrefix": Object {},
+                      },
+                    ],
+                    "name": "div",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": Object {
+                      "attribs": Object {
+                        "class": "MuiGrid-root makeStyles-content-6 MuiGrid-item MuiGrid-grid-xs-12",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {},
+                          "children": Array [],
+                          "name": "div",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {},
+                          "x-attribsPrefix": Object {},
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                  Object {
+                    "attribs": Object {
+                      "class": "MuiGrid-root makeStyles-content-6 MuiGrid-item MuiGrid-grid-xs-12",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {},
+                        "children": Array [],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {},
+                        "x-attribsPrefix": Object {},
+                      },
+                    ],
+                    "name": "div",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "class": "MuiGrid-root makeStyles-banner-5 MuiGrid-item MuiGrid-grid-xs-12",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {},
+                          "children": Array [],
+                          "name": "div",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {},
+                          "x-attribsPrefix": Object {},
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "MuiGrid-root makeStyles-rightPanel-7 MuiGrid-item MuiGrid-grid-xs-3",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {},
+                      "children": Array [],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {},
+                      "x-attribsPrefix": Object {},
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "class": "MuiGrid-root makeStyles-sideNav-4 MuiGrid-item MuiGrid-grid-xs-2",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {},
+                      "children": Array [],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {},
+                      "x-attribsPrefix": Object {},
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+              Object {
+                "attribs": Object {
+                  "class": "MuiGrid-root makeStyles-rightPanel-7 MuiGrid-item MuiGrid-grid-xs-3",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {},
+                    "children": Array [],
+                    "name": "div",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {},
+                    "x-attribsPrefix": Object {},
+                  },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "class": "MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-item MuiGrid-align-content-xs-flex-start MuiGrid-grid-xs-true",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "MuiGrid-root makeStyles-banner-5 MuiGrid-item MuiGrid-grid-xs-12",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {},
+                          "children": Array [],
+                          "name": "div",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {},
+                          "x-attribsPrefix": Object {},
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": Object {
+                        "attribs": Object {
+                          "class": "MuiGrid-root makeStyles-content-6 MuiGrid-item MuiGrid-grid-xs-12",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {},
+                            "children": Array [],
+                            "name": "div",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {},
+                            "x-attribsPrefix": Object {},
+                          },
+                        ],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                    Object {
+                      "attribs": Object {
+                        "class": "MuiGrid-root makeStyles-content-6 MuiGrid-item MuiGrid-grid-xs-12",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {},
+                          "children": Array [],
+                          "name": "div",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {},
+                          "x-attribsPrefix": Object {},
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {
+                          "class": "MuiGrid-root makeStyles-banner-5 MuiGrid-item MuiGrid-grid-xs-12",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {},
+                            "children": Array [],
+                            "name": "div",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {},
+                            "x-attribsPrefix": Object {},
+                          },
+                        ],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "MuiGrid-root makeStyles-sideNav-4 MuiGrid-item MuiGrid-grid-xs-2",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {},
+                        "children": Array [],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {},
+                        "x-attribsPrefix": Object {},
+                      },
+                    ],
+                    "name": "div",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+            ],
+            "name": "div",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+        },
+      },
+    ],
+    "name": "div",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "class": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "class": undefined,
+    },
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xml": false,
+  },
+}
+`;
