@@ -9,7 +9,10 @@ import Typography from "components/atoms/Typography";
 
 const useStyle = makeStyles((theme) => ({
   root: {
-    backgroundColor: theme.container.secondary.color,
+    backgroundColor:
+      theme.palette.type === "dark"
+        ? theme.palette.containerSecondary.dark
+        : theme.palette.containerSecondary.light,
     borderRadius: theme.container.secondary.borderRadius,
     padding: theme.container.secondary.padding,
   },
