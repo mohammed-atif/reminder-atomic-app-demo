@@ -1,7 +1,6 @@
 import React, { useCallback, useState } from "react";
 import PropTypes from "prop-types";
 
-import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Box from "@material-ui/core/Box";
 import Grid from "@material-ui/core/Grid";
@@ -10,11 +9,8 @@ import Typography from "components/atoms/Typography";
 import TextField from "components/atoms/TextField";
 import Button from "components/atoms/Button";
 
-const useStyle = makeStyles((theme) => ({}));
-
 const AddEventBanner = (props) => {
   const validate = { props };
-  const style = useStyle();
 
   const [fieldToValidate, setFieldValidation] = useState({
     title: false,
@@ -46,9 +42,8 @@ const AddEventBanner = (props) => {
 
   const isValid = useCallback(() => {
     let validationStatus = true;
-    Object.keys(fieldToValidate).map((key, value) => {
+    Object.keys(fieldToValidate).forEach((key, value) => {
       validationStatus = validationStatus && validateField(key);
-      console.log(validationStatus);
     });
     return validationStatus;
   }, [fieldToValidate, validateField]);
@@ -70,7 +65,7 @@ const AddEventBanner = (props) => {
     if (!props.validate || (props.validate && isValid())) {
       props.onSubmit(inputFieldValue);
     }
-  }, [isValid]);
+  }, [props, isValid, inputFieldValue]);
 
   return (
     <Box component={Container}>
